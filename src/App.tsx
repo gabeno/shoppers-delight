@@ -1,17 +1,8 @@
 import {Routes, Route} from "react-router-dom"
 import {Container} from "react-bootstrap"
-
-function Home() {
-  return <h1>Home Page</h1>
-}
-
-function Store() {
-  return <h1>Store Page</h1>
-}
-
-function About() {
-  return <h1>About Page</h1>
-}
+import {Home} from "./pages/Home"
+import {Store} from "./pages/Store"
+import {About} from "./pages/About"
 
 function App() {
   return (
