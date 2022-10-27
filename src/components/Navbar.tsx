@@ -1,3 +1,9 @@
+import {Container, Navbar as NavbarBs } from "react-bootstrap"
+
 export function Navbar() {
-    return <h3>Navbar</h3>
+    return (
+        <NavbarBs className="bg-white shadow-sm mb-3">
+            <Container>Nav</Container>
+        </NavbarBs>
+    )
 }
